@@ -1087,147 +1087,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LM317_TO-220"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM317_TO-220"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-220"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Adjustable Voltage Regulator 1A Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM317_TO-220_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM317_TO-220_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "ADJ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:IRF540N"
 			(pin_names
 				(hide yes)
@@ -1608,107 +1467,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text ".tran 2"
 		(exclude_from_sim no)
@@ -1734,18 +1492,6 @@
 		(uuid "0c97a8b0-ccfb-4a98-a6d5-9d8e6d4f3147")
 	)
 	(junction
-		(at 96.52 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cab9d26-705d-4589-b1d8-f417da1d3442")
-	)
-	(junction
-		(at 105.41 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cc20f4c-9656-4c2a-8852-268a6f629d18")
-	)
-	(junction
 		(at 193.04 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1756,18 +1502,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23699d91-d7ac-4513-9f0f-2a4ff2e01332")
-	)
-	(junction
-		(at 154.94 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2935585f-29d3-464d-8f1d-12b212e7d292")
-	)
-	(junction
-		(at 107.95 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ee82b33-71b5-4feb-8c52-46bca00619f4")
 	)
 	(junction
 		(at 222.25 85.09)
@@ -1806,28 +1540,10 @@
 		(uuid "5bd8c4d5-37cb-4491-b5c2-ba22ce0ad5c3")
 	)
 	(junction
-		(at 105.41 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64b66e79-159e-45b9-ad59-acf8301c19dc")
-	)
-	(junction
-		(at 146.05 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "682aa07e-f431-4496-922e-c1fd6aabe11a")
-	)
-	(junction
 		(at 217.17 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68e6c24e-8654-40ff-b05a-8045bddc9a5b")
-	)
-	(junction
-		(at 135.89 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d55ac95-4e92-4b97-8383-09442cbf7d32")
 	)
 	(junction
 		(at 233.68 71.12)
@@ -1872,18 +1588,6 @@
 		(uuid "83d5d3aa-c0b1-4e41-827e-70663806e9ad")
 	)
 	(junction
-		(at 96.52 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "869f3734-cb6f-4914-9e0d-0a1cda95bf1f")
-	)
-	(junction
-		(at 115.57 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a187592d-ff52-4654-8b37-a850de7500ce")
-	)
-	(junction
 		(at 181.61 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1924,28 +1628,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b79aa357-4148-424b-a67b-2f59e135ea82")
-	)
-	(junction
-		(at 135.89 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2a164d4-3e05-47ce-abbe-da9d44fc2d89")
-	)
-	(junction
-		(at 115.57 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb037403-a1b9-467a-99f8-9ff9d8817765")
-	)
-	(wire
-		(pts
-			(xy 107.95 92.71) (xy 107.95 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03672c00-1725-4e5b-9f2d-80dec8a4e295")
 	)
 	(wire
 		(pts
@@ -1999,26 +1681,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 88.9) (xy 115.57 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a837c8a-fcc2-43c9-aafc-1707368a14c2")
-	)
-	(wire
-		(pts
-			(xy 80.01 68.58) (xy 96.52 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aea1184-abaa-49ca-bbca-a207d202e67e")
-	)
-	(wire
-		(pts
 			(xy 215.9 68.58) (xy 215.9 71.12)
 		)
 		(stroke
@@ -2066,6 +1728,16 @@
 			(type solid)
 		)
 		(uuid "1f825c14-d370-454c-9a90-d8b10f022d11")
+	)
+	(wire
+		(pts
+			(xy 154.94 72.39) (xy 154.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20945efc-372c-4c81-b4e9-ba259721bc59")
 	)
 	(wire
 		(pts
@@ -2219,16 +1891,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 81.28) (xy 115.57 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3df233a7-ec0f-4518-98b3-db6bd529f209")
-	)
-	(wire
-		(pts
 			(xy 193.04 85.09) (xy 193.04 82.55)
 		)
 		(stroke
@@ -2236,16 +1898,6 @@
 			(type solid)
 		)
 		(uuid "3f177ad9-997e-4db8-8212-e5580ef6f71f")
-	)
-	(wire
-		(pts
-			(xy 115.57 68.58) (xy 115.57 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40a64155-6689-42a5-a020-b1c4a01335c9")
 	)
 	(wire
 		(pts
@@ -2269,13 +1921,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 68.58) (xy 143.51 68.58)
+			(xy 143.51 74.93) (xy 143.51 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46123718-5d1b-4746-a393-3da2bc5feb8a")
+		(uuid "47176e9c-ab02-452f-9c6d-d20ee507d92a")
 	)
 	(wire
 		(pts
@@ -2296,6 +1948,16 @@
 			(type solid)
 		)
 		(uuid "4c0d37a7-12bd-4af6-a774-862b182d3123")
+	)
+	(wire
+		(pts
+			(xy 135.89 74.93) (xy 143.51 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d4b7e3e-eedc-49e7-9c46-343ee2758f88")
 	)
 	(wire
 		(pts
@@ -2356,26 +2018,6 @@
 			(type default)
 		)
 		(uuid "52aedd91-c10a-4ff5-b21d-e6ccd32d9f0a")
-	)
-	(wire
-		(pts
-			(xy 115.57 68.58) (xy 128.27 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52f6c020-c5f3-4d62-8565-172af7975780")
-	)
-	(wire
-		(pts
-			(xy 96.52 88.9) (xy 105.41 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57a94ded-5189-4bcd-90da-f51ae10d76d6")
 	)
 	(wire
 		(pts
@@ -2479,16 +2121,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 68.58) (xy 105.41 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c1e7a1d-ba1f-459f-8e0e-568bc2a5007d")
-	)
-	(wire
-		(pts
 			(xy 199.39 74.93) (xy 204.47 74.93)
 		)
 		(stroke
@@ -2529,16 +2161,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 71.12) (xy 146.05 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7660efd2-510a-4bc0-87e0-41dd800328ee")
-	)
-	(wire
-		(pts
 			(xy 212.09 60.96) (xy 212.09 64.77)
 		)
 		(stroke
@@ -2566,6 +2188,16 @@
 			(type default)
 		)
 		(uuid "77d0cf9b-2a2f-42d9-8e46-92945584fbb3")
+	)
+	(wire
+		(pts
+			(xy 135.89 72.39) (xy 154.94 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78cb92ee-9fbf-4b5d-984c-4faa6648174d")
 	)
 	(wire
 		(pts
@@ -2599,16 +2231,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 78.74) (xy 154.94 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ce1db50-3e22-446b-b235-3c4e12ffd4af")
-	)
-	(wire
-		(pts
 			(xy 222.25 85.09) (xy 222.25 83.82)
 		)
 		(stroke
@@ -2626,16 +2248,6 @@
 			(type solid)
 		)
 		(uuid "7d8bf86d-799c-4faa-8dd4-d4b9bd0c0e87")
-	)
-	(wire
-		(pts
-			(xy 135.89 88.9) (xy 154.94 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ed0926f-30e5-4c61-8cca-07b3a05b2791")
 	)
 	(wire
 		(pts
@@ -2679,16 +2291,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 68.58) (xy 154.94 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "909fb7b0-50f4-4e85-874e-7029cf4d5d31")
-	)
-	(wire
-		(pts
 			(xy 213.36 95.25) (xy 205.74 95.25)
 		)
 		(stroke
@@ -2696,16 +2298,6 @@
 			(type solid)
 		)
 		(uuid "9124b521-d3eb-4001-93b8-7309da10db33")
-	)
-	(wire
-		(pts
-			(xy 80.01 76.2) (xy 80.01 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94a559e1-42af-4f4f-8233-375999ba4469")
 	)
 	(wire
 		(pts
@@ -2769,16 +2361,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 68.58) (xy 146.05 68.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a0832217-31e8-4306-8169-0f16ea881cb4")
-	)
-	(wire
-		(pts
 			(xy 180.34 99.06) (xy 180.34 95.25)
 		)
 		(stroke
@@ -2786,16 +2368,6 @@
 			(type solid)
 		)
 		(uuid "a2139247-b5a4-4342-bbf1-98568ebabb9c")
-	)
-	(wire
-		(pts
-			(xy 135.89 76.2) (xy 135.89 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a28f6dcb-e58b-486e-8c8e-e677af2adf5a")
 	)
 	(wire
 		(pts
@@ -2816,16 +2388,6 @@
 			(type default)
 		)
 		(uuid "a7bae69a-d74b-49be-bb76-e737cbfdd709")
-	)
-	(wire
-		(pts
-			(xy 105.41 68.58) (xy 105.41 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8b782c0-d27c-489b-ab6a-2ea29486c4cf")
 	)
 	(wire
 		(pts
@@ -2859,16 +2421,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 78.74) (xy 146.05 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae365ddb-f74b-493b-a806-dae287dd4194")
-	)
-	(wire
-		(pts
 			(xy 217.17 64.77) (xy 212.09 64.77)
 		)
 		(stroke
@@ -2886,16 +2438,6 @@
 			(type solid)
 		)
 		(uuid "b1dfbd3d-1c86-4bf2-85ea-bdccf08e18eb")
-	)
-	(wire
-		(pts
-			(xy 80.01 78.74) (xy 80.01 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1e7b75e-155d-4e0c-980f-cf7c76576c5e")
 	)
 	(wire
 		(pts
@@ -2919,26 +2461,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 81.28) (xy 96.52 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b51e9d8b-91d1-4992-bfc2-6c64abc4f396")
-	)
-	(wire
-		(pts
-			(xy 96.52 73.66) (xy 96.52 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53ad5a4-3d27-4543-91c6-079db656f8da")
-	)
-	(wire
-		(pts
 			(xy 217.17 99.06) (xy 233.68 99.06)
 		)
 		(stroke
@@ -2956,16 +2478,6 @@
 			(type default)
 		)
 		(uuid "b822708a-5944-41bf-8a74-8ad2fbb107e8")
-	)
-	(wire
-		(pts
-			(xy 105.41 88.9) (xy 107.95 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b83de578-f79e-4977-8d5e-4054eee63cdc")
 	)
 	(wire
 		(pts
@@ -3039,16 +2551,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 88.9) (xy 135.89 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2be9745-f904-43fa-bbdc-7ef3159d62e9")
-	)
-	(wire
-		(pts
 			(xy 217.17 71.12) (xy 233.68 71.12)
 		)
 		(stroke
@@ -3066,16 +2568,6 @@
 			(type solid)
 		)
 		(uuid "c7c6c8c0-a02c-4208-a983-2a193d770604")
-	)
-	(wire
-		(pts
-			(xy 80.01 88.9) (xy 96.52 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c83788c9-d60b-4c8b-9a4f-5a1c57317ea9")
 	)
 	(wire
 		(pts
@@ -3156,16 +2648,6 @@
 			(type solid)
 		)
 		(uuid "e38c073d-4856-4122-a054-2d2d4f5b584b")
-	)
-	(wire
-		(pts
-			(xy 105.41 68.58) (xy 115.57 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e56cb243-bed1-444f-93a9-6a66074dbfb1")
 	)
 	(wire
 		(pts
@@ -3269,16 +2751,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 78.74) (xy 135.89 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f94b7342-650e-46a2-8637-7bb181c97059")
-	)
-	(wire
-		(pts
 			(xy 217.17 73.66) (xy 217.17 71.12)
 		)
 		(stroke
@@ -3296,16 +2768,6 @@
 			(type solid)
 		)
 		(uuid "fd09fd84-6377-47c4-9912-24324150fdea")
-	)
-	(wire
-		(pts
-			(xy 105.41 81.28) (xy 105.41 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff623112-0ad1-4a85-9180-aa9c9513f3de")
 	)
 	(wire
 		(pts
@@ -3384,74 +2846,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 212.09 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07eaddc9-6dca-4ea1-84a4-07b775b60a6d")
-		(property "Reference" "D2"
-			(at 212.4075 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 212.4075 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 212.09 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6246b8a8-88f6-4704-9801-72f35101d740")
-		)
-		(pin "2"
-			(uuid "a5638cd8-3fb1-4813-8f5c-3792ca22bcc8")
-		)
-		(instances
-			(project "ZVS-Driver"
-				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ltspice:GND")
 		(at 161.29 149.86 0)
 		(unit 1)
@@ -3518,17 +2912,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 96.52 77.47 0)
+		(lib_id "Transistor_FET:IRF540N")
+		(at 179.07 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2a594081-611c-4704-a3c8-876581e4a9ef")
-		(property "Reference" "C3"
-			(at 100.33 76.1999 0)
+		(uuid "193a1e0d-9370-4328-941c-4e7f1e2ab058")
+		(property "Reference" "Q3"
+			(at 185.42 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,8 +2930,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 100.33 78.7399 0)
+		(property "Value" "IRF540N"
+			(at 185.42 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,8 +2939,82 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 97.4852 81.28 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 184.15 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+			(at 184.15 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+			(at 179.07 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c1501452-db85-4bca-8fcc-bcbefa90996f")
+		)
+		(pin "2"
+			(uuid "c3c22c44-0b27-4d78-a8fa-d113a35bc654")
+		)
+		(pin "1"
+			(uuid "feac8bec-f1f4-4690-9a96-c8e27bbb1af7")
+		)
+		(instances
+			(project "ZVS-Driver"
+				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 212.09 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28e10ca3-0df4-43e0-be71-8a3dea8a0ac0")
+		(property "Reference" "D6"
+			(at 212.4075 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 212.4075 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
+			(at 212.09 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +3023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 77.47 0)
+			(at 212.09 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,25 +3031,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 96.52 77.47 0)
+		(property "Description" "Schottky diode"
+			(at 212.09 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "734324e7-28c3-4253-b056-3179a24534a2")
 		)
 		(pin "1"
-			(uuid "41e23f80-0df4-4d0d-b1b5-9bb3c738a38f")
+			(uuid "0a3200c5-5fd9-4391-ac72-92c14bc9dc63")
+		)
+		(pin "2"
+			(uuid "80c794df-b9bb-4a1d-8e56-b79b6aaed3a9")
 		)
 		(instances
-			(project ""
+			(project "ZVS-Driver"
 				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
-					(reference "C3")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3654,82 +3122,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF540N")
-		(at 219.71 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2de501ee-52e0-489b-b5d6-cd991a657302")
-		(property "Reference" "Q1"
-			(at 226.06 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF540N"
-			(at 226.06 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 224.79 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 224.79 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 219.71 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "183308ec-667d-4b77-99b4-89835c1aa8c6")
-		)
-		(pin "2"
-			(uuid "53451c73-d5b6-4e6b-b57a-515ab4830e36")
-		)
-		(pin "1"
-			(uuid "150659ea-87ca-4c81-9a5c-1bf51e4d7983")
-		)
-		(instances
-			(project ""
-				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 233.68 85.09 0)
 		(unit 1)
@@ -3757,7 +3149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:C_Rect_L7.2mm_W11.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 234.6452 88.9 0)
 			(effects
 				(font
@@ -3871,74 +3263,6 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 212.09 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40fcea49-9413-401e-950a-453f28e4f5bf")
-		(property "Reference" "L4"
-			(at 212.09 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 212.09 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 212.09 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b97b2216-f60f-4fbc-85bb-7ff0b5b47557")
-		)
-		(pin "1"
-			(uuid "d7e870cf-9876-4fea-8df2-c9796367ff69")
-		)
-		(instances
-			(project "ZVS-Driver"
-				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
-					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
 		(at 242.57 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3965,7 +3289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "customia_LC_tank:C_Rect_L7.2mm_W11.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 242.57 85.09 0)
 			(effects
 				(font
@@ -4078,35 +3402,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 105.41 77.47 0)
+		(lib_id "Device:L")
+		(at 212.09 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "57411f52-8bf8-479b-b431-30cd1c734b68")
-		(property "Reference" "C5"
-			(at 109.22 76.1999 0)
+		(uuid "5b5be2e3-4389-4242-904f-38fdd6313a98")
+		(property "Reference" "L2"
+			(at 212.09 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 109.22 78.7399 0)
+		(property "Value" "L"
+			(at 212.09 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 106.3752 81.28 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 212.09 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +3437,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 77.47 0)
+			(at 212.09 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,91 +3445,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 105.41 77.47 0)
+		(property "Description" "Inductor"
+			(at 212.09 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "c24e8192-4e0c-4d94-8118-c696b988a0f6")
 		)
 		(pin "2"
-			(uuid "aedb0eb7-c84d-4414-93a5-bf9be645dcc9")
+			(uuid "4c6baac3-9144-4604-b90b-193cc0dcc1e0")
+		)
+		(pin "1"
+			(uuid "019a950f-a866-4dbd-b8c5-7c709f284639")
 		)
 		(instances
 			(project "ZVS-Driver"
 				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59f3e533-067f-4b66-8b6a-9198ca182ce2")
-		(property "Reference" "#PWR01"
-			(at 107.95 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8430e911-81cd-460d-acc9-869b7330f631")
-		)
-		(instances
-			(project ""
-				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
-					(reference "#PWR01")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -4239,7 +3495,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
 			(at 205.74 60.96 0)
 			(effects
 				(font
@@ -4416,222 +3672,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF540N")
-		(at 220.98 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62c381df-18f4-4fda-98a9-5065959c35b2")
-		(property "Reference" "Q5"
-			(at 227.33 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF540N"
-			(at 227.33 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 226.06 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 226.06 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 220.98 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "98fca49f-5b6c-41ff-912a-f5885a551bec")
-		)
-		(pin "2"
-			(uuid "aa92d634-01ab-4e1d-8f81-055be863f1ea")
-		)
-		(pin "1"
-			(uuid "0dd8f693-0f2c-43b9-bad7-fedff7aab7a4")
-		)
-		(instances
-			(project "ZVS-Driver"
-				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 146.05 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ffefd0b-7bb7-4068-94df-a4afe40e3f82")
-		(property "Reference" "R7"
-			(at 148.59 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R"
-			(at 148.59 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 147.828 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 146.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "011aab5b-8dc2-4f2b-ab34-a94d865cafd2")
-		)
-		(pin "2"
-			(uuid "2290f2ed-3fb2-41c7-ab85-79469a858c4a")
-		)
-		(instances
-			(project "ZVS-Driver"
-				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 204.47 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78d04a70-7796-428a-8d32-bd49ca5e7131")
-		(property "Reference" "D5"
-			(at 207.01 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 207.01 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0c71fb4a-1673-4331-bc30-c6db013c2856")
-		)
-		(pin "1"
-			(uuid "a86f22ba-f1b5-49ed-a055-c4fb075eae21")
-		)
-		(instances
-			(project "ZVS-Driver"
-				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 184.15 76.2 90)
 		(unit 1)
@@ -4694,6 +3734,148 @@
 			(project ""
 				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF540N")
+		(at 220.98 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e6d3aa8-1d33-4d91-bbc4-effaf9368a5e")
+		(property "Reference" "Q5"
+			(at 227.33 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF540N"
+			(at 227.33 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 226.06 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+			(at 226.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+			(at 220.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f5a05e67-6319-4ac2-9f28-3dcb6ce67cf7")
+		)
+		(pin "2"
+			(uuid "29734785-ad5f-44c1-bcdf-797317ea40f1")
+		)
+		(pin "1"
+			(uuid "5310e6e8-0b93-4431-87cc-34abee5b773e")
+		)
+		(instances
+			(project "ZVS-Driver"
+				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ltspice:GND")
+		(at 143.51 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ffef2d3-2df2-4cb1-a529-ce48602f1739")
+		(property "Reference" "#GND05"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.0668 1.0668)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ae1cca5c-8251-445b-ad0b-835e0ad1d6eb")
+		)
+		(instances
+			(project "ZVS-Driver"
+				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
+					(reference "#GND05")
 					(unit 1)
 				)
 			)
@@ -4795,7 +3977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 213.36 109.22 0)
 			(effects
 				(font
@@ -4905,148 +4087,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 154.94 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8def96c4-74c8-452c-ad23-5dd04e13992b")
-		(property "Reference" "C6"
-			(at 158.75 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 158.75 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 155.9052 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "885ce493-1776-47f4-8116-dca7c3ab62d7")
-		)
-		(pin "2"
-			(uuid "17032237-d943-4233-9dce-01f2239d9445")
-		)
-		(instances
-			(project "ZVS-Driver"
-				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM317_TO-220")
-		(at 135.89 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fa2136d-e254-4daf-a862-883bc183a529")
-		(property "Reference" "U1"
-			(at 135.89 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM317_TO-220"
-			(at 135.89 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 135.89 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
-			(at 135.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-220"
-			(at 135.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6c1f4917-ebbe-4ffd-9ab8-a1eb9ab6568c")
-		)
-		(pin "2"
-			(uuid "e2264693-9387-4159-8bc7-f09e616bff8f")
-		)
-		(pin "1"
-			(uuid "7385df8b-b7a1-4e15-b51a-f1ee0800bc7e")
-		)
-		(instances
-			(project ""
-				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 161.29 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5073,7 +4113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:C_Radial_D10.0mm_H20.0mm_P4.5mm,customia"
 			(at 162.2552 148.59 0)
 			(effects
 				(font
@@ -5116,146 +4156,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 115.57 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3e33735-cfee-4a96-b081-a09d7ce41147")
-		(property "Reference" "C4"
-			(at 119.38 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 119.38 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.5352 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 115.57 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae3f8ee9-0110-4a18-83c7-e7d25921f3fc")
-		)
-		(pin "2"
-			(uuid "7c761445-3551-43e3-adc0-5fbf01113494")
-		)
-		(instances
-			(project ""
-				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 135.89 85.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8b7f1c2-841f-486f-a07a-1db2544c1f11")
-		(property "Reference" "R8"
-			(at 138.43 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R"
-			(at 138.43 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 137.668 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 135.89 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d18ca2b-c5e0-4cc7-90ea-9432bcd80175")
-		)
-		(pin "2"
-			(uuid "fad7d475-a18f-4b17-ae49-3042f151f337")
-		)
-		(instances
-			(project "ZVS-Driver"
-				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148WT")
 		(at 171.45 128.27 270)
 		(unit 1)
@@ -5283,7 +4183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
 			(at 167.005 128.27 0)
 			(effects
 				(font
@@ -5345,16 +4245,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF540N")
-		(at 179.07 143.51 0)
+		(at 198.12 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ace59d71-e33a-42df-aadc-8a04e887021c")
-		(property "Reference" "Q3"
-			(at 185.42 142.2399 0)
+		(uuid "aa8139f6-526b-400c-88bc-74ce07fd761f")
+		(property "Reference" "Q4"
+			(at 204.47 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +4263,7 @@
 			)
 		)
 		(property "Value" "IRF540N"
-			(at 185.42 144.7799 0)
+			(at 204.47 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +4272,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 184.15 145.415 0)
+			(at 203.2 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +4283,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 184.15 147.32 0)
+			(at 203.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,7 +4293,7 @@
 			)
 		)
 		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 179.07 143.51 0)
+			(at 198.12 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,18 +4302,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "4d6a065a-2d4b-4907-833d-dd7a6ed826ba")
+			(uuid "7458cfb3-1b55-4ca3-a04f-1d9bbde004ea")
 		)
 		(pin "2"
-			(uuid "f8d1cd46-3437-4f09-9493-3f4421a2a720")
+			(uuid "4e8fe806-82ba-46b8-b3e3-d0dbbf50fa92")
 		)
 		(pin "1"
-			(uuid "fedeb400-bab1-4ef9-9dc8-cd3e75a3c5c7")
+			(uuid "3d43986d-299c-4d3d-b16c-d58a08026de9")
 		)
 		(instances
 			(project "ZVS-Driver"
 				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
-					(reference "Q3")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -5447,7 +4347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
 			(at 204.47 80.01 0)
 			(effects
 				(font
@@ -5491,7 +4391,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 74.93 78.74 180)
+		(at 130.81 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5500,7 +4400,7 @@
 		(fields_autoplaced yes)
 		(uuid "c18c2bb6-ccb4-4edf-a594-21823e41d5eb")
 		(property "Reference" "J1"
-			(at 74.93 69.85 0)
+			(at 130.81 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5508,15 +4408,15 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 74.93 72.39 0)
+			(at 130.81 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 74.93 78.74 0)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal"
+			(at 130.81 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +4425,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 78.74 0)
+			(at 130.81 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +4434,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 74.93 78.74 0)
+			(at 130.81 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,16 +4535,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF540N")
-		(at 198.12 142.24 0)
+		(at 219.71 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cf64d140-fd84-4cfd-a729-704da65b9fc9")
-		(property "Reference" "Q4"
-			(at 204.47 140.9699 0)
+		(uuid "f73c954c-da78-4dd9-8b53-adedbb69fb9d")
+		(property "Reference" "Q1"
+			(at 226.06 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +4553,7 @@
 			)
 		)
 		(property "Value" "IRF540N"
-			(at 204.47 143.5099 0)
+			(at 226.06 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,7 +4562,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 203.2 144.145 0)
+			(at 224.79 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5673,7 +4573,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 203.2 146.05 0)
+			(at 224.79 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +4583,7 @@
 			)
 		)
 		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 198.12 142.24 0)
+			(at 219.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,18 +4592,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "b866c4db-ef42-40b5-8746-129a98cf21b3")
+			(uuid "d9e5c620-f318-4a22-9f87-0f015bbadc93")
 		)
 		(pin "2"
-			(uuid "474c1903-69fc-4f42-be2a-042a98d32ee9")
+			(uuid "6d580602-8b8a-48a2-845a-19d71b6f852c")
 		)
 		(pin "1"
-			(uuid "289826d3-c0d4-41da-8f36-f3b1cef8b9c6")
+			(uuid "f0783f5c-e7e7-400c-a910-87d74986219f")
 		)
 		(instances
 			(project "ZVS-Driver"
 				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
-					(reference "Q4")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -5779,4 +4679,80 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 204.47 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd1e667f-42ab-415e-925a-4007a88cbe67")
+		(property "Reference" "D2"
+			(at 207.01 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 207.01 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
+			(at 204.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 204.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7562b2aa-022f-43e5-81e8-28832f4b10a0")
+		)
+		(pin "1"
+			(uuid "b5dda0a6-78cb-4c37-bf15-c8ed6443d229")
+		)
+		(instances
+			(project "ZVS-Driver"
+				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

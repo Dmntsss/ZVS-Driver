@@ -4350,7 +4350,7 @@
 	(footprint "Library:C_Radial_D10.0mm_H20.0mm_P4.5mm,customia"
 		(layer "F.Cu")
 		(uuid "ef81024f-44d8-4aef-8f60-2772f9340ff2")
-		(at 64.75 110)
+		(at 60 105.5)
 		(descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=20mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 5.00mm diameter 10mm height 20mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C2"
