@@ -1671,6 +1671,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 71.12) (xy 242.57 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "081ed658-2d88-4fe5-b877-e55074a7ae43")
+	)
+	(wire
+		(pts
 			(xy 200.66 151.13) (xy 200.66 148.59)
 		)
 		(stroke
@@ -2021,6 +2031,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 81.28) (xy 242.57 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7ea64c-5827-4eba-b4ad-766175f3836c")
+	)
+	(wire
+		(pts
 			(xy 215.9 91.44) (xy 213.36 91.44)
 		)
 		(stroke
@@ -2068,6 +2088,16 @@
 			(type default)
 		)
 		(uuid "663c4e91-ab74-476a-b44d-e11e8964d0af")
+	)
+	(wire
+		(pts
+			(xy 214.63 99.06) (xy 217.17 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "665fd708-c58c-45f3-98f9-bd96ffe0ab0f")
 	)
 	(wire
 		(pts
@@ -2131,16 +2161,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 71.12) (xy 241.3 81.28)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "71eb4886-f57c-46ff-b0a5-879a4c65be25")
-	)
-	(wire
-		(pts
 			(xy 212.09 142.24) (xy 212.09 133.35)
 		)
 		(stroke
@@ -2148,16 +2168,6 @@
 			(type solid)
 		)
 		(uuid "72b7f8f6-f8d8-435d-a521-0f0d4bad36e0")
-	)
-	(wire
-		(pts
-			(xy 241.3 81.28) (xy 242.57 81.28)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "73b9bac7-8be7-4e41-8294-04fb4fda976f")
 	)
 	(wire
 		(pts
@@ -2381,6 +2391,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 99.06) (xy 207.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40cd25b-7c27-47a0-a4af-1120e49b9d8b")
+	)
+	(wire
+		(pts
 			(xy 223.52 85.09) (xy 222.25 85.09)
 		)
 		(stroke
@@ -2408,16 +2428,6 @@
 			(type default)
 		)
 		(uuid "abfe0642-e369-4c6f-a249-94ddc68129f5")
-	)
-	(wire
-		(pts
-			(xy 208.28 99.06) (xy 180.34 99.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ada0036d-7a7a-41e9-a8f8-c08085cf4ac1")
 	)
 	(wire
 		(pts
@@ -2598,16 +2608,6 @@
 			(type default)
 		)
 		(uuid "d084003a-78dc-4e81-b212-78f902429c46")
-	)
-	(wire
-		(pts
-			(xy 215.9 99.06) (xy 217.17 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d67cb306-f92b-47e5-b2c2-ebd634e71475")
 	)
 	(wire
 		(pts
@@ -2989,7 +2989,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 212.09 99.06 180)
+		(at 213.36 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2998,7 +2998,7 @@
 		(fields_autoplaced yes)
 		(uuid "28e10ca3-0df4-43e0-be71-8a3dea8a0ac0")
 		(property "Reference" "D6"
-			(at 212.4075 92.71 0)
+			(at 213.6775 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +3006,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 212.4075 95.25 0)
+			(at 213.6775 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +3014,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
-			(at 212.09 99.06 0)
+			(at 213.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +3023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 99.06 0)
+			(at 213.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3032,7 +3032,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 212.09 99.06 0)
+			(at 213.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,7 +3047,7 @@
 			(uuid "80c794df-b9bb-4a1d-8e56-b79b6aaed3a9")
 		)
 		(instances
-			(project "ZVS-Driver"
+			(project "ZVS-Driver (1)"
 				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
 					(reference "D6")
 					(unit 1)
@@ -3427,7 +3427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Inductor_THT:L_Radial_D10.0mm_P5.00mm_Fastron_07M"
 			(at 212.09 68.58 0)
 			(effects
 				(font
@@ -3953,7 +3953,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 213.36 109.22 90)
+		(at 210.82 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3962,7 +3962,7 @@
 		(fields_autoplaced yes)
 		(uuid "8184047c-bd1d-4164-9a07-493b7bea0fa2")
 		(property "Reference" "L3"
-			(at 213.36 104.14 90)
+			(at 210.82 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,15 +3970,15 @@
 			)
 		)
 		(property "Value" "L"
-			(at 213.36 106.68 90)
+			(at 210.82 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 213.36 109.22 0)
+		(property "Footprint" "Inductor_THT:L_Radial_D10.0mm_P5.00mm_Fastron_07M"
+			(at 210.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +3987,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 109.22 0)
+			(at 210.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +3996,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 213.36 109.22 0)
+			(at 210.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +4011,7 @@
 			(uuid "1a55b56a-42ac-4b59-9df7-5677a886e31a")
 		)
 		(instances
-			(project "ZVS-Driver"
+			(project "ZVS-Driver (1)"
 				(path "/2c7e395d-0d61-44d7-9118-9d4d2f6d8d81"
 					(reference "L3")
 					(unit 1)
