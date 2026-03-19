@@ -2970,6 +2970,68 @@
 		)
 		(uuid "ffcfa657-59ba-4de9-978a-ae1aa53f6484")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 233.68 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3c704ef-876b-48c0-a2ca-7ebaf7b9c361")
+		(property "Netclass" "Power"
+			(at 234.3785 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -232.41 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 154.94 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc41805d-b837-4632-b1a8-73e577f9af38")
+		(property "Netclass" "Power"
+			(at 155.6385 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "ltspice:GND")
 		(at 200.66 151.13 0)
