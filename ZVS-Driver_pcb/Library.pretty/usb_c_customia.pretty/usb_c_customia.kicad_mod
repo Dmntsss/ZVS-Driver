@@ -1,0 +1,163 @@
+(footprint "usb_c_customia"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4-pin Resistor SIP pack")
+	(tags "R")
+	(property "Reference" "REF**"
+		(at 5.08 -2.31 0)
+		(layer "F.SilkS")
+		(uuid "fe6a20f8-b6cc-414d-b865-a6aaebed840e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "usb_c_customia"
+		(at 5.08 2.31 0)
+		(layer "F.Fab")
+		(uuid "a589a587-725b-4c11-a3f4-e4825d531040")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7da3107-bcce-4b71-a355-fa72f8df541d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93ed99c0-83cd-4571-9634-ae698cfd05f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.27 -1.31)
+		(end 1.27 1.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73e2a790-7d0b-49fd-ba4e-ae8381a1594b")
+	)
+	(fp_rect
+		(start -1.35 -1.31)
+		(end 8.97 1.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "777107b7-f317-435b-a19e-d2889c65d549")
+	)
+	(fp_rect
+		(start -1.6 -1.56)
+		(end 9.22 1.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "aa76914b-de6d-4957-8988-dbeaa25d4163")
+	)
+	(fp_line
+		(start 1.27 -1.25)
+		(end 1.27 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed3e8e8a-eb0d-44ae-a341-079e9e209e09")
+	)
+	(fp_rect
+		(start -1.29 -1.25)
+		(end 8.91 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "33befa4d-ed9d-4868-b89a-69671f7c19fa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.08 0 0)
+		(layer "F.Fab")
+		(uuid "464e6974-c5b1-4c81-b99b-5e37a2eff459")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc19d485-01ba-4a2e-a500-697bdb96d9e4")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "76c2e463-65fc-4a36-821c-d55e960b29df")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "663eb574-638d-4702-8d6d-b9ddd68c2b8a")
+	)
+	(pad "4" thru_hole circle
+		(at 5.08 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9c1aaeec-f564-473a-9fcf-6f25ed605b80")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Array_SIP4.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
