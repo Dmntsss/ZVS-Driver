@@ -1,4 +1,4 @@
-27219017742349286
+27229661247535695
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71805,6 +71805,48 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+C_Radial_D10.0mm_H20.0mm_P4.5mm,customia
+C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=20mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 10mm height 20mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Library
+C_Rect_L7.2mm_W11.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*11mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm length 7.2mm width 11mm Capacitor
+0
+2
+2
+Library
+C_Rect_L7.2mm_W11.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2customia
+C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*11mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm length 7.2mm width 11mm Capacitor
+0
+2
+2
+Library
+doodles
+
+
+0
+0
+0
+Library
+millennium_flacon
+
+
+0
+0
+0
+Library
+usb_c_pads
+4-pin Resistor SIP pack
+R
+0
+4
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
